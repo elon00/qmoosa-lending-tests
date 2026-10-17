@@ -1,0 +1,30 @@
+{
+  "name": "@qmoosa/lending-tests",
+  "version": "1.0.0",
+  "description": "Decentralized Lending & Borrowing Tests — End-to-end integration, adversarial liquidation gates & provenance suite",
+  "type": "module",
+  "scripts": {
+    "test:integrity": "node scripts/verify-source-integrity.mjs",
+    "test:integration": "node --test tests/integration.test.mjs",
+    "test:negative": "node --test tests/negative-control.test.mjs",
+    "verify:archive": "node scripts/verify-source-integrity.mjs --mode=archive",
+    "verify:source": "node scripts/verify-source-integrity.mjs --mode=source",
+    "verify:current-head": "node scripts/verify-source-integrity.mjs --mode=current-head",
+    "test": "npm run test:integrity && npm run test:integration && npm run test:negative",
+    "lint": "node --check tests/integration.test.mjs tests/negative-control.test.mjs scripts/verify-source-integrity.mjs"
+  },
+  "dependencies": {
+    "@qmoosa/lending-engine": "file:packages/qmoosa-lending-engine-1.0.0.tgz",
+    "@qmoosa/lending-protocol": "file:packages/qmoosa-lending-protocol-1.0.0.tgz",
+    "@qmoosa/lending-sdk": "file:packages/qmoosa-lending-sdk-1.0.0.tgz"
+  },
+  "keywords": [
+    "qmoosa",
+    "lending",
+    "tests",
+    "integration",
+    "reality-gates"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}

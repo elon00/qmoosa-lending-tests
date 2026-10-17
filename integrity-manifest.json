@@ -1,0 +1,37 @@
+{
+  "manifestVersion": "1.0.0",
+  "mission": "QMOOSA-LENDING-01",
+  "generatedAt": "2026-10-17T18:36:00Z",
+  "packages": [
+    {
+      "name": "@qmoosa/lending-protocol",
+      "repository": "elon00/qmoosa-lending-protocol",
+      "version": "1.0.0",
+      "sourceCommit": "6932aad508a7631cf2ec236a07449843a164ead7",
+      "archivePath": "packages/qmoosa-lending-protocol-1.0.0.tgz",
+      "sha256": "4451c091c3747366ceb9135fd7440b4b5bc0e9ff7088adc731a5a285b0f381af",
+      "ciStatus": "PASS",
+      "testResult": "4/4 passing"
+    },
+    {
+      "name": "@qmoosa/lending-engine",
+      "repository": "elon00/qmoosa-lending-engine",
+      "version": "1.0.0",
+      "sourceCommit": "5df85c3d3b0c3145fee3b0879e781890e3062868",
+      "archivePath": "packages/qmoosa-lending-engine-1.0.0.tgz",
+      "sha256": "f487c92dc3e7b83ed6ff4e2439b7e7d1e1e5bf4586e75495952549a3f87baa07",
+      "ciStatus": "PASS",
+      "testResult": "6/6 passing"
+    },
+    {
+      "name": "@qmoosa/lending-sdk",
+      "repository": "elon00/qmoosa-lending-sdk",
+      "version": "1.0.0",
+      "sourceCommit": "0beddfe0e0b14ddb6c1f35c757ea26a99e19dad5",
+      "archivePath": "packages/qmoosa-lending-sdk-1.0.0.tgz",
+      "sha256": "5a3ff4d0b65cf5079b12672d5c11fbd991c3bcb6c6e666ca2be18fdbab7de3ba",
+      "ciStatus": "PASS",
+      "testResult": "5/5 passing"
+    }
+  ]
+}
