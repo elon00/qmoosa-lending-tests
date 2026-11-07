@@ -1,0 +1,50 @@
+{
+  "engine": "REA_Reverse_Engineer_Anything",
+  "status": "STRUCTURE_RECONSTRUCTED",
+  "analyzed_files": 14,
+  "manifest": {
+    "integrity-manifest.json": {
+      "bytes": 1380
+    },
+    "package-lock.json": {
+      "bytes": 1400
+    },
+    "package.json": {
+      "bytes": 1334
+    },
+    "packages\\qmoosa-lending-engine-1.0.0.tgz": {
+      "bytes": 5192
+    },
+    "packages\\qmoosa-lending-protocol-1.0.0.tgz": {
+      "bytes": 3793
+    },
+    "packages\\qmoosa-lending-sdk-1.0.0.tgz": {
+      "bytes": 2972
+    },
+    "scripts\\rea_inspector.py": {
+      "bytes": 1485
+    },
+    "scripts\\rsi_engine.py": {
+      "bytes": 2039
+    },
+    "scripts\\verify-source-integrity.mjs": {
+      "bytes": 4622
+    },
+    "tests\\integration.test.mjs": {
+      "bytes": 5798
+    },
+    "tests\\negative-control.test.mjs": {
+      "bytes": 2120
+    },
+    "tests\\reality_check_harness.py": {
+      "bytes": 1250
+    },
+    ".github\\workflows\\ci.yml": {
+      "bytes": 993
+    },
+    ".github\\workflows\\qmoosa-rsi-rea-sync.yml": {
+      "bytes": 531
+    }
+  },
+  "timestamp": 1794023334
+}
